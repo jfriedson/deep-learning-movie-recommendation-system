@@ -1,0 +1,6 @@
+pandas
+scipy
+tqdm
+tensorboard
+future
+numpy
