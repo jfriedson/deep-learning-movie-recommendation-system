@@ -2,7 +2,7 @@
 Collaborative movie recommendation system.  Provided movie ratings by a user, determine the rating that the user would give to every movie in the dataset.
 
 
-## Nice-to-Haves
+## Preprocessing the Data
 Data preprocessing removes a lot of overhead during training, validation, and testing:
 
 Split data into train, validation, and evaluation files.
