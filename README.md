@@ -1,25 +1,15 @@
 # Deep Learning Movie Rating Prediction
-Predict the ratings a user will give to movies they have not rated based solely on the ratings they have provided for other movies.  Written in python with the pytorch library.  Works on the newest MovieLens dataset.
-
-
-## Architecture
-This neural network architechture solves issues I found in other machine learning methods:
-
-Clustering algorithms, such as k-means, limit the scope of recommendations because users are grouped.
-
-Deep learning with embedding layers must be retrained every time a new user is added or a user adds a new rating.
-
-My architechture doesn't group users or their interests and it does not need to be retrained for new users or new ratings.
+Collaborative movie recommendation system.  Provided movie ratings by a user, determine the rating that the user would give to every movie in the dataset.
 
 
 ## Nice-to-Haves
-Preprocessing removes a lot of overhead during training, validation, and testing:
+Data preprocessing removes a lot of overhead during training, validation, and testing:
 
 Split data into train, validation, and evaluation files.
 
 Normalize ratings from 0-5 stars to be between 0 and 1.
 
-Save data as sparse matricies.  This saves lots of memory on disk and reduces the loading time of data.
+Data is saved in sparse matricies.  This saves lots of memory on disk by only storing ratings and reduces the loading time of data.
 
 
 ## Installation
