@@ -1,4 +1,4 @@
-# Deep Learning Movie Rating Recommendation System
+# Deep Learning Movie Recommendation System
 Collaborative movie recommendation system.  Provided movie ratings by a user, determine the rating that the user would give to every movie in the dataset.
 
 
